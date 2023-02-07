@@ -1,0 +1,451 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+
+}
+nav img{ height: 75px;
+    width: 200px;
+
+}
+nav{ width: 100%;
+    height: 60px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    
+
+   
+}
+
+nav ul{width: 600px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+nav li:hover{
+    border-bottom: 2px solid black;
+}
+nav span{width: 25%;
+   padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 18%;
+}
+nav span a{
+    text-decoration: none;
+    color: black;
+}
+nav span a:hover{
+    border-bottom: 2px solid black;
+}
+.container{height: 100vh;
+    /* width: 100%; */
+     background-image: url(./Highlight-M365-Icon-Bounce-Word-Merch_VP4-1399x600.avif);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    
+}
+.text-section{flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+   width: 550px;
+   height: 550px;
+   
+
+}
+.text-section h1{
+    margin-bottom: 15px;
+    margin-right: 130px;
+    font-weight: 550;
+}
+.text-section p{
+    margin-right: 5px;
+    
+}
+.text-section button{
+    
+    /* margin-right: 250px; */
+    margin-top: 20px;
+}
+.text-btn{
+    margin-right: 10px;
+
+    
+}
+.text-btn button{
+    background-color: #0067b8;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 2px;
+    
+
+}
+.text-btn a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.hero-section{
+    height: 90vh;
+    display: flex;
+    
+
+    
+}
+.image-section{background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    
+}
+.head-section{width: 825px;
+    margin-left: 200px;
+    height: 250px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.head-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.head-image a{
+    margin-top: 20px;
+    
+    color: #0067b8;
+    
+    font-weight: 600
+}
+.surface-section img{
+    width: 250px;
+    height: 150px;
+    
+}
+.surface-section h1{
+    margin-top: 20px;
+}
+
+.surface-section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.surface-section a{
+    margin-top: 40px;
+    text-decoration: none;
+    color:  #0067b8;
+    font-size: 18px;
+    font-weight: 200;
+}
+.surfacexbox-section img{ width: 250px;
+    height: 150px;
+
+}
+.surfacexbox-section {
+    margin-bottom: 50px;
+}
+.surfacexbox-section a{margin-top: 40px;
+    text-decoration: none;
+    color:  #0067b8;
+    font-size: 18px;
+    font-weight: 200;
+
+}
+.surfacexbox-section p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.surfacexbox-section h1{
+    margin-top: 20px;
+}
+.xbox-s{ padding: 80px;
+    height: 120vh;
+   
+}
+.xbox-image{height: 100vh;
+    background-image: url(./images/gldn-XSS-Hero-Xbox-Series-S_VP4-1260x600.webp);
+    background-position: center;
+    background-size: cover;
+}
+.xbox-text{height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+.xbox-text h1{
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+.xbox-text p{
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+.xbox-text button{
+    margin-bottom: 15px;
+    margin-left: 100px;
+    background-color: #0067b8;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.business-section img{
+    width: 250px;
+    height: 150px;
+}
+.business-section h1{
+    margin-bottom: 20px;
+    
+}
+.hero-sectiontwo{
+    height: 90vh;
+    display: flex;
+    
+
+    
+}
+.business-section p{
+    margin-bottom: 20px;
+}
+.businessimage-section{background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    
+    
+}
+.business-section a{
+    text-decoration: none;
+    color: #0067b8;
+    font-size: 20px;
+    font-weight: 535;
+    
+}
+.business-section{
+    height: 100%;
+    
+    
+}
+.for{
+    margin-bottom: 60px;
+}
+.last-sec p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    
+}
+.last-sec i{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer-text{ 
+
+    
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-text ul{ height: 200px;
+    list-style: none;
+    line-height: 30px;
+    color: #616161;
+    
+    
+}
+.footer-text ul h3{ font-size: 15px;
+    font-weight: 600;
+
+}
+.footer-text ul li{
+    font-size: 11px;
+    font-weight: 100;
+}
+
+
+
+.last-blog{
+    background-color: #f1efef;;
+}
+.last-blogtwo{
+     padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-blogtwo ul{display: flex;
+    list-style: none;
+    
+
+}
+.last-blogtwo ul li{
+    margin-right: 20px;
+    font-size: 11px;
+    font-weight: 100;
+    transition: all ease-in-out 0.3s;
+}
+.last-blogtwo ul li:hover{
+    border-bottom: 1px solid #616161;
+    cursor: pointer;
+    
+}
+.last-blogtwo a{
+    font-size: 11px;
+    text-decoration: none;
+    color: #616161;
+    margin-left: 10px;
+}
+.last-blogtwo a:hover{
+    border-bottom: 1px solid #616161;
+}
+.icon-sec i{font-size: 20px;
+    color: #616161;
+    
+
+}
+.icon-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    nav{
+        width: 100%;
+        padding: 0px;
+    }
+    nav span{width: 80%;
+        padding: 40px;
+         display: flex;
+         justify-content: space-between;
+         /* margin-left: 18%; */
+     }
+    nav ul{
+        display: none;
+    }
+    nav a{
+        display: none;
+    }
+    .container{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .text-section{
+        width: 100%;
+    }
+    .head-section{height: 100vh;
+        width: 100%;
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+       flex-direction: column;
+       margin-left: 0px;
+       
+    }
+    .head-image{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-sectiontwo{
+        width: 100%;
+        height: 100vh;
+    }
+    .image-section{
+        width: 100%;
+        flex-direction: column;
+    }
+    .xbox-s{width: 100%;
+        height: 100vh;
+        /* margin-top: 700px; */
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+    .xbox-image{width: 100%;
+        padding: 0px;
+        height: 100vh;
+        margin-top: 700px;
+        display: flex;
+        justify-content: center;
+         align-items: center;
+    } 
+    .xbox-text{
+        width: 250px;
+    
+        
+    }.xbox-text h1{
+        margin-left: 0px;
+    }
+    .xbox-text p{margin-left: 0px;}
+    .xbox-text button{
+        margin-left: 0px;
+    }
+
+    .businessimage-section{
+        flex-direction: column;
+        height: 200vh;
+        
+    }
+    .last-sec{
+        width: 50%;
+        margin-top: 50px; 
+        display: none;
+    }
+    .footer-text{width: 100%;
+        flex-wrap: wrap;
+        margin-top: 1000px;
+        justify-content: space-evenly;
+        height: 80vh;
+        padding: 20px;
+    }
+    .footer-text ul{
+        height: 300px;
+        width: 100%;
+    }
+    .last-blog{
+        width: 100%;
+       height: 320vh;
+    }
+   
+   .last-blogtwo{
+    display: none;
+   }
+    
+}
